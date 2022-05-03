@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header,
+section,
+footer,
+nav {
+  border: 2px solid black;
+}
+
+section,
+footer,
+nav {
+  margin-top: 10px;
+}
+
+header {
+  padding-top: 10px;
+}
+
+nav {
+  top: 0;
+  position: sticky;
+  background-color: white;
+}
+
+.col,
+.col-6 {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  padding: 10px;
+}
